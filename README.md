@@ -2,7 +2,7 @@
 
 This project demonstrates how to deploy a serverless web application on Amazon Web Services (AWS) using Terraform. The web application includes a view count feature that increments every time someone accesses the website. The architecture involves various AWS services to achieve scalability, security, and performance.
 
-![Serverless_webapp](/Users/anjali/web-application/serverless.drawio.png)
+![Serverless_webapp](serverless.drawio.png)
 
 ## Project Components
 
@@ -33,7 +33,7 @@ This project demonstrates how to deploy a serverless web application on Amazon W
 1. **Clone the Repository**: Clone this repository to your local machine using Git:
 
     ```bash
-    git clone https://github.com/yourusername/your-repo.git
+    git clone https://github.com/pavan121904/Midterm-project.git
     cd your-repo
     ```
 

@@ -31,3 +31,15 @@ variable "s3_origin_id" {
     type = string
   
 }
+variable "domain_name" {
+    type = string
+  
+}
+variable "cf_domain_name" {
+    type = string
+  
+}
+variable "name_servers" {
+    type = list(string)
+  
+}
