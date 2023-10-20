@@ -23,3 +23,12 @@ module "cloudfront" {
   bucket_name = var.bucket_name
   
 }
+
+module "route53" {
+  source = "./route53"  # Path to your module's directory
+
+  domain_name     = var.domain_name
+  cf_domain_name  = var.cf_domain_name
+  name_servers    = var.name_servers
+}
+
