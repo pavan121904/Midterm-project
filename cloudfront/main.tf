@@ -101,3 +101,24 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
 
 #full permision to s3
 
+variable "bucket_name" {
+  description = "Name of the specific S3 bucket"
+}
+
+resource "aws_iam_policy" "s3_full_access_policy" {
+  name        = "S3FullAccessPolicy"  # Name for the policy
+  description = "IAM policy with full access to a specific S3 bucket"
+
+  policy = jsonencode({
+    Version = "2012-10-17",
+    Statement = [
+      {
+        Action   = "s3:*",
+        Effect   = "Allow",
+        Resource = [
+          "arn:aws:s3:::${var.bucket_name}/*",  # Use the bucket_name variable
+        ],
+      },
+    ],
+  })
+}
