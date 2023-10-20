@@ -2,7 +2,7 @@
 
 This project demonstrates how to deploy a serverless web application on Amazon Web Services (AWS) using Terraform. The web application includes a view count feature that increments every time someone accesses the website. The architecture involves various AWS services to achieve scalability, security, and performance.
 
-![Serverless_webapp](serverless.drawio.png)
+![Serverless_webapp](image_project.drawio)
 
 ## Project Components
 
