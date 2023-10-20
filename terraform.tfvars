@@ -1,0 +1,12 @@
+bucket_name = "pavanweb779929"
+lambda_function_name = "website-121904"
+dynamodb_table_name = "dynamo-121904"  
+attribute_name = "views"
+table_name = "dynamo-121904"
+path = "index.html"
+script_path = "script.js"
+style_path = "style.css"
+s3_origin_id = "myS3Origin"
+domain_name = "www.mahiclub.co.uk"
+cf_domain_name = "*.mahiclub.co.uk"
+name_servers = ["ns-285.awsdns-35.com", "ns-771.awsdns-32.net", "ns-1271.awsdns-30.org", "ns-1772.awsdns-29.co.uk"]
